@@ -1,8 +1,8 @@
 .container-awesome {
-  margin: auto;
+  
 }
-.title-h2__awesome {
-  text-transform: uppercase;
+.awesome__title-h2 {
+  
   margin-bottom: 25px;
 }
 .awesome-line {
@@ -19,12 +19,16 @@
   color: #86878B;
 }
 .awesome-row {
-  display: flex;
-  justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
 }
 .awesome-row__card {
-  width: 350px;
+  max-width: 350px;
   text-align: center;
+  margin-bottom: 20px;
+  padding: 0 15px;
 }
 .awesome-row__circle {
   margin: auto;
