@@ -1,8 +1,14 @@
-.price-line {
+.pricing {
+  background: #E5E5E5;
+}
+.price__title-h2::after {
+  content: "";
   margin: auto;
   width: 62px;
-  border-top: 1px solid #D98943;
-  margin-bottom: 30px;
+  height: 2px;
+  background-color: #D98943;
+  display:block;
+  margin-top: 30px;
 }
 .price-descr__text {
   font-size: 14px;
@@ -11,19 +17,18 @@
   margin-bottom: 63px;
   color: #86878B;
 }
-.price__title-h2 {
-  margin-bottom: 34px;
-}
 .price-card__row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 0 -15px;
 }
 .price-card__item {
   max-width: 340px;
   width: 100%;
   margin-bottom: 20px;
+  margin: 0 15px 10px 15px;
 }
 .price-card__title {
   background:  #333333;
@@ -61,9 +66,11 @@
   line-height: 40px;
   margin-bottom: 2px;
   font-size: 14px;
-  
 }
-
-.price-card__life-item2 {
+.price-card__life {
+  display: block;
+  transition: 0,25s;
+}
+.price-card__life:hover {
   background: #D98943;
 }

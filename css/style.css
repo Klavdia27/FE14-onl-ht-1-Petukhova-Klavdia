@@ -1,5 +1,8 @@
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
+@import url("../css/customers.css");
+@import url("../css/axure.css");
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
@@ -28,7 +31,5 @@ section {
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
-}
-.pricing {
-  background: #E5E5E5;
+  margin-bottom: 34px;
 }
