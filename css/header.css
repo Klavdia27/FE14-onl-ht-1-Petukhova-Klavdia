@@ -1,0 +1,11 @@
+.container-header {
+  z-index: 1;
+  position: relative;
+}
+.header {
+  padding-top: 109px;
+  padding-bottom: 109px;
+  background-image: url(../img/background/background-header.png);
+  background-position: center;
+  background-size: cover;  
+}
