@@ -51,3 +51,11 @@
   line-height: 19px;
   color: #000000;
 }
+.awesome-row_img {
+  color:  #D98943;
+  font-size: 30px;
+}
+.fa-keyboard:before {
+  content: "\f11c";
+  font-family: "Font Awesome 5 Free";
+}

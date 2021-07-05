@@ -41,3 +41,6 @@
   font-size: 42px;
   color: #86878B;
 }
+.social-icon:hover {
+  color: #da70d6;
+}

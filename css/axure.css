@@ -27,20 +27,16 @@
   margin-bottom: 57px;
   color: rgba(255, 255, 255, 0.8); 
 }
-.axure-down {
-  width: 135px;
-  border: 1px solid #FFFFFF;
-  display: flex;
+.axure-dowm {
+  display: block;
   margin: auto; 
-}
-.axure-dowm_a {
   color: #FFFFFF;
-  padding: 0 26px;
-  text-align: center;
+  padding: 0px 26px;
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 15px;
   line-height: 42px;
+  border: 1px solid #FFFFFF;
 }
 .axure__title-h2::after {
   content: "";

@@ -30,3 +30,7 @@
   justify-content: space-between;
 }
 
+.nav-item:hover {
+  border-left: 3px solid green;
+  border-bottom: 3px solid green;
+} 
