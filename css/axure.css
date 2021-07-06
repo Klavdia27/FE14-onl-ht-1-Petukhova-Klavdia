@@ -3,6 +3,7 @@
   position: relative;
 }
 .axure {
+  text-align: center;
   padding-top: 58px;
   padding-bottom: 38px;
   background-image: url(../img/background/background-axure.png);
@@ -28,7 +29,7 @@
   color: rgba(255, 255, 255, 0.8); 
 }
 .axure-dowm {
-  display: block;
+  display: inline-block;
   margin: auto; 
   color: #FFFFFF;
   padding: 0px 26px;
