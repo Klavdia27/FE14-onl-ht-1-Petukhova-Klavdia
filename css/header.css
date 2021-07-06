@@ -74,10 +74,9 @@
 }
 
 .header-form__content {
-  padding: 0 60px 60px 60px;
-  border-radius: 8px 8px 0 0;
+  width: 380px;
+  border-radius: 8px;
   background-color: #fff;
-
 }
 
 .header-form_title {
@@ -86,15 +85,15 @@
   font-weight: bold;
   color: #333333;
   margin-bottom: 44px;
-
+}
+.form-content {
+  padding: 0 60px 60px 60px;
 }
 .header-form__title-span {
   color: #EC7979;
   text-transform: uppercase;
 }
-.form-items__group {
-  
-}
+
 .form-item__label {
   color: #BDBDBD;
   display: block;
@@ -117,6 +116,6 @@ color: #fff;
 font-size: 15px;
 line-height: 53px;
 border-radius: 0 0 8px 8px;
-width: 380px;
+width: 100%;
 border: none;
 }
