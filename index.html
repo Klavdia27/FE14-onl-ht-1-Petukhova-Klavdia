@@ -52,16 +52,16 @@
             </h2>
           
             <div class="form-item">
-              <label for="" class="form-item__label">Name</label>
-              <input type="text" name="Name" required class="form-item__input">
+              <label for="header__label-name" class="form-item__label">Name</label>
+              <input type="text" name="Name" ID="header__label-name" required class="form-item__input">
             </div>
             <div class="form-item">
-              <label for="" class="form-item__label">Email</label>
-              <input type="Email" name="email" class="form-item__input">
+              <label for="header__label-email" class="form-item__label">Email</label>
+              <input type="Email" name="email" ID="header__label-email" class="form-item__input">
             </div>
             <div class="form-item">
-              <label for="" class="form-item__label">Password</label>
-              <input type="password" name="Password" required minlength="8" class="form-item__input">
+              <label for="header__label-password" class="form-item__label">Password</label>
+              <input type="password" name="Password" ID="header__label-password" required minlength="8" class="form-item__input">
             </div>
           </div>
          
@@ -289,27 +289,39 @@
 
 <section class="contact">
   <div class="container container-contact">
+    <div class="contact-descr">
+      <h2 class="contact__title-h2">
+        contact us
+      </h2>
+      <div class="contact-descr"><p class="contact-descr__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p></div>
+
+    </div>
+
     <form action="#" class="contact-row" method="GET">
-      
-      <div class="contact-left">
-        <div class="contact-item">
-          <label for=""></label>
-          <input type="text">
+      <div class="contact-left-rigth">
+        <div class="contact-left">
+          <div class="contact-item">
+            <label for="contact__label-name" class="contact-item__label">Name</label>
+            <input type="text" name="Name" required ID="contact__label-name" class="contact-item__input">
+          </div>
+          <div class="contact-item">
+            <label for="contact__label-email" class="contact-item__label">Email</label>
+            <input type="email" name="Email" ID="contact__label-email" class="contact-item__input">
+          </div>
+          <div class="contact-item">
+            <label for="contact__label-password" class="contact-item__label">Password</label>
+            <input type="password" name="Password" required minlength="8" ID="contact__label-password" class="contact-item__input">
+          </div>
         </div>
-        <div class="contact-item">
-          <label for=""></label>
-          <input type="text">
+        <div class="contact-rigth">
+          <label for="contact__label-textarea" class="contact-rigth__label">Message</label>
+          <textarea type="text" maxlength="100" name="Message" id="contact__label-textarea" class="contact-rigth__textarea"></textarea>
         </div>
-        <div class="contact-item">
-          <label for=""></label>
-          <input type="text">
-        </div>
-      </div>
-      <div class="contact-rigth">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
       </div>
 
-      <button class="send-messange" type="submit">Send Messange</button>
+      <button class="contact__send-messange" type="submit">Send Messange</button>
     </form>
   </div>
 </section>
