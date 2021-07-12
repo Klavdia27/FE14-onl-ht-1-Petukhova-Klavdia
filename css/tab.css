@@ -1,0 +1,63 @@
+.tab-image__city {
+  width: 320px;
+}
+.container-tab {
+  display: flex;
+  margin: 0 -15px;
+
+}
+.tab-group {
+  display: flex;
+
+}
+.tab-button {
+  margin-right: 118px;
+  align-content: space-between;
+  flex-grow: 1;
+}
+.tab-content {
+  margin-right: 50px;
+  flex-direction: column;
+  
+  flex-grow: 0;
+}
+.tab-title {
+  margin-top: 10px;
+  text-transform: uppercase;
+  margin-bottom: 58px;
+  font-style: bold;
+  font-size: 20px;
+  font-weight: 700;
+}
+.tab-item {
+  display: block;
+  width: 112px;
+  line-height: 110px;
+  padding: 45px, 35px, 45px, 35px;
+  background-color: #333333;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+.tab-content__item {
+  display: block;
+  color: #86878B;
+  width: 572px;
+  margin-bottom: 10px;
+}
+.tab-dowm {
+  display: inline-block;
+  margin: auto; 
+  background-color:#EC7979;
+  color: #FFFFFF;
+  padding: 0px 26px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 42px;
+  border: 1px solid #FFFFFF;
+}
+
+background-color: #EC7979;
