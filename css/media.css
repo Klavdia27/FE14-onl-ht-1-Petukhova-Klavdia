@@ -35,6 +35,23 @@
  .container-header {
   flex-direction: column;
  }
+ .header-axit {
+   margin-bottom: 20px;
+   text-align: center;
+ }
+ .header__title-h2 {
+  margin: auto;
+  margin-bottom: 20px;
+
+ }
+ .header-descr__text {
+  margin: auto;
+  margin-bottom: 20px;
+ }
+ .header__title-h2::after {
+  margin: auto;
+  margin-bottom: 20px;
+ }
 }
 
 
