@@ -52,6 +52,11 @@
   margin: auto;
   margin-bottom: 20px;
  }
+.contact-left-rigth {
+ flex-direction: column;
+ margin: auto;
+ align-items: center;
+}
 }
 
 
