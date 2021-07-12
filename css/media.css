@@ -57,6 +57,14 @@
  margin: auto;
  align-items: center;
 }
+.contact-rigth,
+.contact-left {
+  width: 80%;
+
+}
+.contact-rigth {
+  margin-bottom: 20px;
+}
 }
 
 
